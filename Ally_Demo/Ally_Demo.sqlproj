@@ -251,6 +251,7 @@ ecf74ec8-fdd4-520b-bf23-d875d9158861|Programmable Objects\HumanResources\Stored 
   </ItemGroup>
   <ItemGroup>
     <None Include="Pre-Deployment\01_Create_Database.sql" />
+    <None Include="Unsupported\Ally_Demo.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Post-Deployment\01_Finalize_Deployment.sql" />
