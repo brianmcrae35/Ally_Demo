@@ -249,6 +249,7 @@ ecf74ec8-fdd4-520b-bf23-d875d9158861|Programmable Objects\HumanResources\Stored 
     <Folder Include="Schema-Model\Security\" />
     <Folder Include="Schema-Model\Security\Schemas\" />
     <Folder Include="Programmable Objects\Person\Stored Procedures\" />
+    <Folder Include="Schema-Model\Security\Users\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pre-Deployment\01_Create_Database.sql" />
@@ -397,5 +398,11 @@ ecf74ec8-fdd4-520b-bf23-d875d9158861|Programmable Objects\HumanResources\Stored 
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\1.1.0-Changes\003_20180507-0923_Brian.McRae.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\004_20180507-1127_Brian.McRae.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Schema-Model\Security\Users\dlmDashboard.sql" />
   </ItemGroup>
 </Project>
