@@ -392,4 +392,10 @@ ecf74ec8-fdd4-520b-bf23-d875d9158861|Programmable Objects\HumanResources\Stored 
     <None Include="Programmable Objects\Person\Stored Procedures\GetContactTypeData.sql" />
     <None Include="Migrations\1.1.0-Changes\001_20180504-0853_Brian.McRae.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\002_20180504-1500_Brian.McRae.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\003_20180507-0923_Brian.McRae.sql" />
+  </ItemGroup>
 </Project>
