@@ -391,7 +391,6 @@ ecf74ec8-fdd4-520b-bf23-d875d9158861|Programmable Objects\HumanResources\Stored 
   </ItemGroup>
   <ItemGroup>
     <None Include="Programmable Objects\Person\Stored Procedures\GetContactTypeData.sql" />
-    <None Include="Migrations\1.1.0-Changes\001_20180504-0853_Brian.McRae.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\1.1.0-Changes\002_20180504-1500_Brian.McRae.sql" />
@@ -404,5 +403,8 @@ ecf74ec8-fdd4-520b-bf23-d875d9158861|Programmable Objects\HumanResources\Stored 
   </ItemGroup>
   <ItemGroup>
     <None Include="Schema-Model\Security\Users\dlmDashboard.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\005_20180507-1129_Brian.McRae.sql" />
   </ItemGroup>
 </Project>

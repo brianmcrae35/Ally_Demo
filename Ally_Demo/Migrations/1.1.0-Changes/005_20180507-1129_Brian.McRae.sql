@@ -1,4 +1,4 @@
-﻿-- <Migration ID="412227f3-145e-4baa-b6da-fbf1d77b1271" />
+﻿-- <Migration ID="1183bad6-ecb0-4f6d-8ffe-81e87cee2b68" />
 GO
 
 PRINT N'Disabling DDL triggers'
