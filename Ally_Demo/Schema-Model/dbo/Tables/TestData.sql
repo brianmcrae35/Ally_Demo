@@ -10,3 +10,5 @@ CREATE TABLE [dbo].[TestData]
 [ID] [int] NOT NULL
 )
 GO
+CREATE NONCLUSTERED INDEX [idx_LastName] ON [dbo].[TestData] ([LastName])
+GO
