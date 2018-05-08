@@ -43,6 +43,11 @@ b626f028-dc9b-54e7-9b36-6810092c3f64|Programmable Objects\dbo\Stored Procedures\
 ecf74ec8-fdd4-520b-bf23-d875d9158861|Programmable Objects\HumanResources\Stored Procedures\uspUpdateEmployeeLogin.sql;
 2b483dab-b69f-56d7-88c8-640ee915791c|Programmable Objects\HumanResources\Stored Procedures\uspUpdateEmployeePersonalInfo.sql;
 </DeployChangesExecutionOrder>
+    <ExcludeObjectsFromSync />
+    <IncludeObjectsInDataSync>
+Table=[Person].[ContactType];
+Table=[Person].[AddressType];
+</IncludeObjectsInDataSync>
   </PropertyGroup>
   <!-- READYROLL OFFLINE SCHEMA MODEL OPTIONS -->
   <PropertyGroup>
@@ -439,5 +444,8 @@ ecf74ec8-fdd4-520b-bf23-d875d9158861|Programmable Objects\HumanResources\Stored 
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\1.1.0-Changes\014_20180508-1429_Brian.McRae.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\015_20180508-1517_Brian.McRae.sql" />
   </ItemGroup>
 </Project>
