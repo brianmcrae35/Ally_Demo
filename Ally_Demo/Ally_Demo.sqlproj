@@ -431,4 +431,13 @@ ecf74ec8-fdd4-520b-bf23-d875d9158861|Programmable Objects\HumanResources\Stored 
   <ItemGroup>
     <None Include="Migrations\1.1.0-Changes\011_20180508-1045_Brian.McRae.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\012_20180508-1418_Brian.McRae.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Schema-Model\dbo\Tables\TestAddress.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\013_20180508-1420_Brian.McRae.sql" />
+  </ItemGroup>
 </Project>
