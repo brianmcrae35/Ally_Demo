@@ -413,4 +413,8 @@ ecf74ec8-fdd4-520b-bf23-d875d9158861|Programmable Objects\HumanResources\Stored 
   <ItemGroup>
     <None Include="Schema-Model\dbo\Tables\TestData.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\dbo\Stored Procedures\SP_GetContactType.sql" />
+    <None Include="Migrations\1.1.0-Changes\007_20180508-0814_Brian.McRae.sql" />
+  </ItemGroup>
 </Project>
