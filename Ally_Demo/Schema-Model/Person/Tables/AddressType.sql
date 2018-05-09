@@ -3,7 +3,8 @@ CREATE TABLE [Person].[AddressType]
 [AddressTypeID] [int] NOT NULL IDENTITY(1, 1),
 [Name] [dbo].[Name] NOT NULL,
 [rowguid] [uniqueidentifier] NOT NULL ROWGUIDCOL CONSTRAINT [DF_AddressType_rowguid] DEFAULT (newid()),
-[ModifiedDate] [datetime] NOT NULL CONSTRAINT [DF_AddressType_ModifiedDate] DEFAULT (getdate())
+[ModifiedDate] [datetime] NOT NULL CONSTRAINT [DF_AddressType_ModifiedDate] DEFAULT (getdate()),
+[Comments] [varchar] (100) NULL
 )
 GO
 ALTER TABLE [Person].[AddressType] ADD CONSTRAINT [PK_AddressType_AddressTypeID] PRIMARY KEY CLUSTERED  ([AddressTypeID])
