@@ -448,4 +448,10 @@ Table=[Person].[AddressType];
   <ItemGroup>
     <None Include="Migrations\1.1.0-Changes\015_20180508-1517_Brian.McRae.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\016_20180509-0841_Brian.McRae.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\017_20180509-0841_Brian.McRae.sql" />
+  </ItemGroup>
 </Project>
